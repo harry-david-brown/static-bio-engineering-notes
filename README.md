@@ -39,8 +39,8 @@ The public surface is designed to remain framework-independent at runtime.
 
 ## 2) Architecture (high level)
 
-```
-mermaid
+
+```mermaid
 flowchart LR
   U[Visitor] --> E[Edge/CDN Cache]
   E -->|cache miss| O[Origin]
